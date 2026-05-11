@@ -16,6 +16,10 @@ A Streamlit app that uses OpenAI's GPT model to analyze and provide feedback on 
 
 For public deployment, use Streamlit Cloud and set the OPEN_AI_KEY in the app secrets.
 
+## Screenshot
+
+![AI Resume Critiquer running screenshot](images/runImage.png)
+
 ## Security Notes
 
 - Never commit your `.env` file or API keys to the repository
