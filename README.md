@@ -6,7 +6,7 @@ A Streamlit app that uses OpenAI's GPT model to analyze and provide feedback on 
 
 1. Clone the repository
 2. Install dependencies: `uv sync`
-3. Copy `.env.example` to `.env` and add your OpenAI API key:
+3. Copy your `API_KEY` to `.env` and add your OpenAI API key:
    ```
    OPEN_AI_KEY=your_actual_openai_api_key
    ```
