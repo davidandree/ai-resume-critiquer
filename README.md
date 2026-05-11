@@ -2,23 +2,22 @@
 
 A Streamlit app that uses OpenAI's GPT model to analyze and provide feedback on resumes.
 
+![AI Resume Critiquer running screenshot](images/runImage.png)
+
 ## Setup
 
 1. Clone the repository
 2. Install dependencies: `uv sync`
-3. Copy your `API_KEY` to `.env` and add your OpenAI API key:
+3. Copy your `OPEN_AI_API_KEY` to `.env` and add your OpenAI API key:
+
    ```
-   OPEN_AI_KEY=your_actual_openai_api_key
+   OPEN_AI_KEY=your_actual_openai_api_key_here
    ```
 4. Run the app: `uv run streamlit run main.py`
 
 ## Deployment
 
 For public deployment, use Streamlit Cloud and set the OPEN_AI_KEY in the app secrets.
-
-## Screenshot
-
-![AI Resume Critiquer running screenshot](images/runImage.png)
 
 ## Security Notes
 
